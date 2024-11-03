@@ -9,7 +9,7 @@ public class ShaderReplacer : EditorWindow
     private Shader targetShader;
     private List<Shader> allShaders;
 
-    [MenuItem("Tools/Replace Shaders")]
+    [MenuItem("Tools/Italiandogs/Replace Shaders")]
     public static void ShowWindow()
     {
         GetWindow<ShaderReplacer>("Replace Shaders");
